@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <Button
+            android:id="@+id/first_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment 1"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/second_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment 2"
+            tools:ignore="MissingConstraints"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_switch"
+        android:name="com.example.unitfive.FragmentOne"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        tools:layout="@layout/fragment_one"/>
+
+</LinearLayout>
