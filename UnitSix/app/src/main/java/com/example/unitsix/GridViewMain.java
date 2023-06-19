@@ -15,7 +15,7 @@ public class GridViewMain extends AppCompatActivity {
 
         setContentView(R.layout.grid_view_main);
 
-        gridView = findViewById(R.id.grid_view);
+        gridView = findViewById(R.id.grid_view_list);
 
         String[] names = {"Person 1", "Person 2", "Person 3", "Person 4", "Person 5",
                 "Person 1", "Person 2", "Person 3", "Person 4", "Person 5",
