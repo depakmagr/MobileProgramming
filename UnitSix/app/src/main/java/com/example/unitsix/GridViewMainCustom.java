@@ -18,11 +18,13 @@ public class GridViewMainCustom extends AppCompatActivity {
 
         String[] title = {"Title 1", "Title 1","Title 1", "Title 1", "Title 1","Title 1"};
 
-        String[] description = {"This is a description 1.", "This is a description 1.", "This is a description 1.",
-                "This is a description 1.", "This is a description 1.", "This is a description 1."};
+        String[] description = {"This is a description 1.", "This is a description 1.",
+                "This is a description 1.", "This is a description 1.",
+                "This is a description 1.", "This is a description 1."};
 
-        int[] image = {R.drawable.ic_launcher_background,R.drawable.ic_launcher_background, R.drawable.ic_launcher_background,
-                R.drawable.ic_launcher_background,R.drawable.ic_launcher_background, R.drawable.ic_launcher_background};
+        int[] image = {R.drawable.ic_launcher_background,R.drawable.ic_launcher_background,
+                R.drawable.ic_launcher_background, R.drawable.ic_launcher_background,
+                R.drawable.ic_launcher_background, R.drawable.ic_launcher_background};
 
         GridViewCustomItem adapter = new GridViewCustomItem(this, title, description, image);
 
