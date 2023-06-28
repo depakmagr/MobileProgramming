@@ -69,7 +69,7 @@ public class UserTableActionsMain extends AppCompatActivity {
                 Cursor cursor = userDB.selectData();
 
                 while (cursor.moveToNext()) {
-//                    id = cursor.getInt(0);
+//                    id = cursor.getInt(0);e
 //                    name = cursor.getString(1);
 //                    address = cursor.getString(2);
 
